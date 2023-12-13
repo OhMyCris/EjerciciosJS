@@ -7,7 +7,7 @@ const alumns = [
 ]
 var contador = 0;
 
-/*for (let i = 0; i < alumns.length; i++) {
+for (let i = 0; i < alumns.length; i++) {
     
     if (alumns[i].T1 == false ){
         contador = contador + 1;
@@ -31,8 +31,8 @@ var contador = 0;
      contador = 0;
     console.log(alumns[i]);
     
-}*/
-
+}
+/*
 alumns.forEach(alumno => {
     console.log(alumno.T1, alumno.T2, alumno.T3);
     contador = (alumno.T1 == false? 1:0) + (alumno.T2 == false? 1:0) + (alumno.T2 == false? 1:0);
@@ -44,4 +44,4 @@ alumns.forEach(alumno => {
         alumno.isApproved = true;
     }
     console.log(alumno);
-})
+})*/

@@ -2,7 +2,7 @@ const products = ['Camiseta de Pokemon', 'Pantalón coquinero', 'Gorra de gansta
 
 for (let i = 0; i < products.length; i++) {
     
-    if (products[i].includes("Camiseta")) {
+    if (products[i].toLowerCase().includes("Camiseta".toLowerCase())) {
         console.log(products[i]);
     }
     

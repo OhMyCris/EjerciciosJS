@@ -8,6 +8,8 @@ for (let i = 0; i < products.length; i++) {
 
 console.log("El total de ventas de todos los productos es:", totalSales);
 
+/* Otra forma de hacerlo */
+
 let totalVentas = 0;
 
 products.forEach(producto => {
