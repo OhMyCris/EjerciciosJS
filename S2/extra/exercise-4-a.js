@@ -1,1 +1,2 @@
 function findArrayIndex(array, text) {}
+
