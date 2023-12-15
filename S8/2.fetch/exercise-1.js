@@ -1,0 +1,1 @@
+console.log(fetch ('https://api.agify.io?name=michael'));
